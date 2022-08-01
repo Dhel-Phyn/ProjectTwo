@@ -86,7 +86,7 @@ img{
 
 .section-a h1{
   font-size: 4rem;
-  color: #662456;
+  color: #ff6b1a;
 }
 
 .section-a p{
@@ -126,23 +126,23 @@ img{
   font-size: 1.5rem;
 }
 
-.section-c .gallary{
+.section-c .gallery{
   display: grid;
   grid-template-columns: 5, 1fr;
 }
 
-.section-c .gallary a:first-child{
+.section-c .gallery a:first-child{
   grid-row: 1/3;
   grid-column: 1/3;
 }
 
-.section-c .gallary a:nth-child(2){
+.section-c .gallery a:nth-child(2){
   grid-column-start: 3;
   grid-column-end: 5;
 }
 
-.section-c .gallary img,
-.section-c .gallary a{
+.section-c .gallery img,
+.section-c .gallery a{
   width: 100%;
   height: 100%;
 }
@@ -214,6 +214,21 @@ img{
   color: #eee;
   cursor: pointer;
   border-radius: 0 20px 20px 0;
+}
+
+.btn{
+  display:inline-block;
+  background-color: #ff6b1a;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  background: #662400;
 }
 
 .overlay{

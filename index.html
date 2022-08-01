@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev Essential</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
      <link
       rel="stylesheet"
@@ -47,13 +49,13 @@
     </section>
 
     <section class="section-c">
-      <div class="gallary">
+      <div class="gallery">
         <a href="./images/pic2.jpg" class="big"><img src="./images/pic2.jpg" alt=""></a>
-        <a href="./images/pic3.jpg"><img src="./images/pic3.jpg" alt=""></a>
-        <a href="./images/pic4.jpg"><img src="./images/pic4.jpg" alt=""></a>
-        <a href="./images/pic5.jpg"><img src="./images/pic5.jpg" alt=""></a>
-        <a href="./images/pic6.jpg"><img src="./images/pic6.jpg" alt=""></a>
-        <a href="./images/pic7.jpg"><img src="./images/pic7.jpg" alt=""></a>
+        <a href="./images/pic3.jpg" class="big"><img src="./images/pic3.jpg" alt=""></a>
+        <a href="./images/pic4.jpg" class="big"><img src="./images/pic4.jpg" alt=""></a>
+        <a href="./images/pic5.jpg" class="big"><img src="./images/pic5.jpg" alt=""></a>
+        <a href="./images/pic6.jpg" class="big"><img src="./images/pic6.jpg" alt=""></a>
+        <a href="./images/pic7.jpg" class="big"><img src="./images/pic7.jpg" alt=""></a>
       </div>
     </section>
     
@@ -100,5 +102,14 @@
 
       </div>
     </footer>
+
+    <script>
+      $(function(){
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
   </body>
 </html>
